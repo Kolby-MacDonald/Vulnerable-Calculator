@@ -71,7 +71,7 @@ def pressed_button(button):
     update_screen()
 
 app = QtWidgets.QApplication([])
-gui = uic.loadUi(r'C:\Users\deadb\Desktop\vulns\calc_vuln\calculator_vuln.ui')
+gui = uic.loadUi(r'C:\Users\deadb\Documents\GitHub\Vulnerable-Calculator\calculator_vuln.ui')
 
 gui.input_line_edit.editingFinished.connect(lambda: pressed_button('input_edited'))
 gui.sign_button.clicked.connect(lambda: pressed_button('sign_button'))

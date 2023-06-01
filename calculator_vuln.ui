@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>290</width>
+    <width>300</width>
     <height>370</height>
    </rect>
   </property>
@@ -18,13 +18,13 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>290</width>
+    <width>300</width>
     <height>370</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>290</width>
+    <width>300</width>
     <height>370</height>
    </size>
   </property>
@@ -36,13 +36,14 @@
   </property>
   <property name="windowIcon">
    <iconset theme="Dark">
-    <normaloff>.</normaloff>.</iconset>
+    <normaloff>../Documents/GitHub/Vulnerable-Calculator</normaloff>../Documents/GitHub/Vulnerable-Calculator</iconset>
   </property>
   <property name="accessibleDescription">
    <string/>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(0, 0, 0);</string>
+   <string notr="true">background-color: rgb(0, 0, 0);
+border-radius:12px;</string>
   </property>
   <property name="windowFilePath">
    <string/>
@@ -65,7 +66,7 @@
      <rect>
       <x>30</x>
       <y>10</y>
-      <width>251</width>
+      <width>261</width>
       <height>21</height>
      </rect>
     </property>
@@ -103,7 +104,7 @@
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>OUTPUT</string>
+     <string/>
     </property>
     <property name="frame">
      <bool>false</bool>
@@ -114,13 +115,16 @@ color: rgb(255, 255, 255);</string>
     <property name="readOnly">
      <bool>true</bool>
     </property>
+    <property name="placeholderText">
+     <string>OUTPUT</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="input_line_edit">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>30</y>
-      <width>271</width>
+      <width>281</width>
       <height>81</height>
      </rect>
     </property>
@@ -149,10 +153,11 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius:0;</string>
     </property>
     <property name="text">
-     <string>Vulnerable Calculator</string>
+     <string/>
     </property>
     <property name="maxLength">
      <number>32774</number>
@@ -163,13 +168,16 @@ color: rgb(255, 255, 255);</string>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
+    <property name="placeholderText">
+     <string>Vulnerable Calculator</string>
+    </property>
    </widget>
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>120</y>
-      <width>271</width>
+      <width>281</width>
       <height>241</height>
      </rect>
     </property>
@@ -204,7 +212,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 0, 0);</string>
+color: rgb(255, 0, 0);</string>
        </property>
        <property name="text">
         <string>C</string>
@@ -235,7 +243,8 @@ color: rgb(180, 0, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>+</string>
@@ -328,7 +337,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>-</string>
@@ -359,7 +369,8 @@ color: rgb(180, 180, 180);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>)</string>
@@ -390,7 +401,8 @@ color: rgb(180, 180, 180);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>*</string>
@@ -452,7 +464,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>%</string>
@@ -483,7 +496,8 @@ color: rgb(180, 180, 180);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>.</string>
@@ -545,7 +559,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>**</string>
@@ -607,7 +622,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(0, 180, 0);</string>
+color: rgb(0, 255, 0);</string>
        </property>
        <property name="text">
         <string>=</string>
@@ -638,7 +653,7 @@ color: rgb(0, 180, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 0, 0);</string>
+color: rgb(255, 0, 0);</string>
        </property>
        <property name="text">
         <string>DEL</string>
@@ -669,7 +684,8 @@ color: rgb(180, 0, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>+/-</string>
@@ -731,7 +747,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>(</string>
@@ -824,7 +841,8 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 180, 180);</string>
+color:white;
+border-radius:12px;</string>
        </property>
        <property name="text">
         <string>÷</string>
@@ -917,7 +935,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(180, 0, 0);</string>
+color: rgb(255, 0, 0);</string>
        </property>
        <property name="text">
         <string>CE</string>
@@ -972,7 +990,7 @@ color: rgb(180, 0, 0);</string>
 color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string> =</string>
+     <string/>
     </property>
     <property name="frame">
      <bool>false</bool>
@@ -982,6 +1000,9 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="readOnly">
      <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string>=</string>
     </property>
    </widget>
   </widget>
