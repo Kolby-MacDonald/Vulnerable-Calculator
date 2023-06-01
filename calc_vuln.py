@@ -61,9 +61,16 @@ def pressed_button(button):
     # If the button is "=" then evaluate the expression.
     elif button == 'evaluate_button':
         confirm_input()
+
+        # whitelist = ['+', '-', '(', ')', '/', '*', '**', '.','1','2','3','4','5','6', '7', '8', '9', '0']
+
+        # for i, character in enumerate(input_string):
+        #     if character not in whitelist:
+        #         input_string = ''
+
         try: #HERE IS THE SECURITY FLAW - Notice how simple of a mistake this can be.
             output_string = str(eval(input_string)) # One simple oversight can...
-            input_string = output_string # Completely control your system.
+            input_string = output_string # completely control your system.
         except:
             pass
     
@@ -105,8 +112,8 @@ output_string = ''
 # Define the UI and application.
 app = QtWidgets.QApplication([])
 
-#gui = uic.loadUi("calculator_vuln_demovid.ui") #Bigger version for demo purposes.
-gui = uic.loadUi("calculator_vuln.ui")
+gui = uic.loadUi("calculator_vuln_demovid.ui") #Bigger version for demo purposes.
+#gui = uic.loadUi("calculator_vuln.ui")
 
 # Map buttons to their respective funcions.
 gui.input_line_edit.editingFinished.connect(lambda: pressed_button('input_edited'))
