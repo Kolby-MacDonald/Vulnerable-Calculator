@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>300</width>
-    <height>370</height>
+    <width>600</width>
+    <height>740</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -18,14 +18,14 @@
   </property>
   <property name="minimumSize">
    <size>
-    <width>300</width>
-    <height>370</height>
+    <width>600</width>
+    <height>740</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>300</width>
-    <height>370</height>
+    <width>600</width>
+    <height>740</height>
    </size>
   </property>
   <property name="cursor">
@@ -43,7 +43,8 @@
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(0, 0, 0);
-border-radius:12px;</string>
+border-radius:24px;
+font-size: 24;</string>
   </property>
   <property name="windowFilePath">
    <string/>
@@ -64,10 +65,10 @@ border-radius:12px;</string>
     </property>
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>50</x>
       <y>10</y>
-      <width>261</width>
-      <height>21</height>
+      <width>541</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -84,7 +85,7 @@ border-radius:12px;</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>24</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
@@ -101,7 +102,8 @@ border-radius:12px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 0;</string>
     </property>
     <property name="text">
      <string/>
@@ -123,9 +125,9 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>30</y>
-      <width>281</width>
-      <height>81</height>
+      <y>70</y>
+      <width>581</width>
+      <height>171</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -136,7 +138,7 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>20</pointsize>
+      <pointsize>24</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
@@ -176,9 +178,9 @@ border-radius:0;</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>120</y>
-      <width>281</width>
-      <height>241</height>
+      <y>250</y>
+      <width>581</width>
+      <height>481</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -198,7 +200,7 @@ border-radius:0;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -229,7 +231,7 @@ color: rgb(255, 0, 0);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -243,8 +245,7 @@ color: rgb(255, 0, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>+</string>
@@ -261,7 +262,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -292,7 +293,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -323,7 +324,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -337,8 +338,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>-</string>
@@ -355,7 +355,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -369,8 +369,7 @@ border-radius:12px;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>)</string>
@@ -387,7 +386,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -401,8 +400,7 @@ border-radius:12px;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>*</string>
@@ -419,7 +417,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -450,7 +448,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -464,8 +462,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>%</string>
@@ -482,7 +479,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -496,8 +493,7 @@ border-radius:12px;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>.</string>
@@ -514,7 +510,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -545,7 +541,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -559,8 +555,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>**</string>
@@ -577,7 +572,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -608,7 +603,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -639,7 +634,7 @@ color: rgb(0, 255, 0);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -670,7 +665,7 @@ color: rgb(255, 0, 0);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -684,8 +679,7 @@ color: rgb(255, 0, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>+/-</string>
@@ -702,7 +696,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -733,7 +727,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -747,8 +741,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>(</string>
@@ -765,7 +758,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -796,7 +789,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -827,7 +820,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -841,8 +834,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">background-color: rgb(35, 39, 46);
-color:white;
-border-radius:12px;</string>
+color:white;</string>
        </property>
        <property name="text">
         <string>÷</string>
@@ -859,7 +851,7 @@ border-radius:12px;</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -890,7 +882,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -921,7 +913,7 @@ color: rgb(255, 255, 255);</string>
        </property>
        <property name="font">
         <font>
-         <pointsize>12</pointsize>
+         <pointsize>24</pointsize>
          <weight>50</weight>
          <italic>false</italic>
          <bold>false</bold>
@@ -952,8 +944,8 @@ color: rgb(255, 0, 0);</string>
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>21</width>
-      <height>21</height>
+      <width>41</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -970,7 +962,7 @@ color: rgb(255, 0, 0);</string>
     </property>
     <property name="font">
      <font>
-      <pointsize>14</pointsize>
+      <pointsize>24</pointsize>
       <weight>50</weight>
       <italic>false</italic>
       <bold>false</bold>
@@ -987,7 +979,8 @@ color: rgb(255, 0, 0);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(35, 39, 46);
-color: rgb(255, 255, 255);</string>
+color: rgb(255, 255, 255);
+border-radius: 0;</string>
     </property>
     <property name="text">
      <string/>
